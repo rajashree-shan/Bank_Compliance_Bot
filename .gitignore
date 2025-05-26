@@ -1,0 +1,25 @@
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore environment/config
+.env
+config.py
+
+# Ignore system/IDE files
+.DS_Store
+*.swp
+*.bak
+*.tmp
+*.log
+
+# Ignore FAISS vectorstore (can be large)
+data/vectorstore/
+
+# Streamlit
+.streamlit/secrets.toml
