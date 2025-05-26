@@ -1,4 +1,4 @@
-# 🛡️ ReguBot: Your AI Compliance Companion for Banks
+# 🛡️ Clara: Your AI Compliance Companion for Banks
 
 **Clara the Compliance Bot** is a secure, MPC-enhanced chatbot designed for financial institutions to query encrypted audit logs, policies, and regulatory documents using natural language.
 
@@ -40,7 +40,7 @@
 1. **Clone the Repo**
 
 ```bash
-git clone https://github.com/rajashree-shan/compliance-bot.git
+git clone https://github.com/rajashree-shan/Bank_Compliance_Bot.git
 cd compliance-bot
 ```
 
