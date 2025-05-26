@@ -1,0 +1,10 @@
+streamlit
+boto3
+langchain
+openai
+faiss-cpu
+python-dotenv
+cryptography
+tiktoken
+python-docx 
+PyPDF2
