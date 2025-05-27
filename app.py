@@ -43,12 +43,14 @@ if user_query:
         st.session_state.messages.append({"role": "assistant", "content": greeting})
         st.chat_message("assistant").write(greeting)
         st.session_state.awaiting_confirmation = False
+        st.rerun()
 
     elif st.session_state.awaiting_confirmation and normalized in {"no", "nothing", "nope", "that's all","thanks","thank you"}:
         goodbye = "Thank you! Have a great day!"
         st.session_state.messages.append({"role": "assistant", "content": goodbye})
         st.chat_message("assistant").write(goodbye)
         st.session_state.awaiting_confirmation = False
+        st.rerun()
 
         st.markdown("---")
         if st.button("🔄 Start New Chat"):
